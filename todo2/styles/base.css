@@ -16,7 +16,7 @@ body {
 }
 div.wrap {display:inline-block; width:100%;}
 ul,form {
-  margin: 1em auto;
+  margin: 0.5em auto;
   padding: 0;
   max-width: 20em;
 }
