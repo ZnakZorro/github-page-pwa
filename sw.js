@@ -1,12 +1,16 @@
 var GHPATH = '/github-page-pwa';
 var APP_PREFIX = 'gppwa_';
-var VERSION = 'version_002';
+var VERSION = 'version_003';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/css/styles.css`,
   `${GHPATH}/img/icon.png`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/js/app.js`,
+  'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/pl.min.js',
+  'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js',
+  'https://code.highcharts.com/highcharts.js'
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
