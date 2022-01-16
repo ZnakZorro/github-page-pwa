@@ -20,6 +20,16 @@
     <ul id="tasks"></ul>
   </form>
   </div>
+  <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          '/github-page-pwa/sw.js',
+          {scope: '/github-page-pwa/'}
+        )
+      }
+  </script>  
+  
+  
   <script src="todo2/simple-to-do.js"></script>
 </body>
 </html>
