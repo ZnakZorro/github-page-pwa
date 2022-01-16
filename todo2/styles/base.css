@@ -7,14 +7,19 @@ body {
   padding:0;
 }
 
-h3 {margin:0}
+h3 {margin:0 auto}
 
 
 body {
   font-size: calc(1em + 1vw);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div.wrap {display:inline-block; width:100%;}
+div.wrap {    
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+    justify-items: center;
+}
 ul,form {
   margin: 0.5em auto;
   padding: 0;
